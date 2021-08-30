@@ -1,37 +1,34 @@
-body{  
-    background: url('../../images/ocean.png');
-    background-repeat: no-repeat;
-    background-size:cover
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.KTZmwnAm_3wATWWPsmYcDwHaFy?pid=ImgDet&rs=1); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
 }
-
-h1 { 
- opacity: 1; 
- color: blue; 
+ul.ulnav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:fuchsia;
 }
-
-
-
- .box{
-     opacity: .25;
- }
- 
-#box1 { 
-    position: relative;
-    height: 80%; 
-    width: 80%; 
-    background-color: rgb(255, 0, 0); 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%);
-
+li.linav{
+    float:left;
 }
-
-
-#box2 { 
-    position: absolute;
-    height: 100%; 
-    width: 25%; 
-    background-color: pink; 
-    top: 0; 
+li.linav a{
+    display: block;
+    color:lavender;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-
+li.linav a.active{
+    display: block;
+    color:rgba(137, 53, 216, 0.589);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.linav a:hover{
+    background-color: burlywood;
+    
+}
