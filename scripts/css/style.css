@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://th.bing.com/th/id/OIP.KTZmwnAm_3wATWWPsmYcDwHaFy?pid=ImgDet&rs=1); 
+    background-image: url('../../images/09dfd9dc-2af3-4ca4-b1a0-e599fa18ff0c.jpg');
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover;
@@ -34,17 +34,17 @@ li.linav a:hover{
 }
 span.subtitle{
     font-size: 10pt;
-    color: lightsalmon;
+    color: rgb(231, 55, 93);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 span.maintitle{
     font-size: 20pt;
-    color: orangered;
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 a.nav{
     font-size: 8pt;
-    color: black;
+    color:white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
