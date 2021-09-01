@@ -35,22 +35,49 @@ li.linav a:hover{
 span.subtitle{
     font-size: 10pt;
     color: rgb(231, 55, 93);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
 }
 span.maintitle{
     font-size: 20pt;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
 }
 a.nav{
     font-size: 8pt;
     color:white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     text-decoration: none;
 }
 a.nav:hover{
     font-size: 10pt;
     color: rgb(222, 247, 6);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     text-decoration: none;
+}
+#page_wrapper{
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 10 px;
+    height: 85%;
+    width: 90%;
+    background: rgb(102,102,102,0.85);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+p.p_content1{
+    font-size: 12pt;
+    color: white;
+    font-family: Verdana;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px solid #ffffff;
+}
+span.font1{
+    font-size: 20pt;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
 }
